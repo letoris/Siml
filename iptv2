@@ -29,3 +29,4 @@ https://melon-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
 #EXTINF:-1  tvg-logo="https://static.wikia.nocookie.net/sketsa/images/4/44/Logotranstv.png/revision/latest?cb=20210722133912&path-prefix=id" group-title="Indonesia Channels",TRANSTV 6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
+
