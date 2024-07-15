@@ -3,6 +3,14 @@ https://streaming.indihometv.com/atm/DASH/sctv/manifest.mpd
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/sctv.png" group-title="Indonesia Channels HD",SCTV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
+#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/sctv.png" group-title="Indonesia Channels",SCTV
+#KODIPROP:inputstreamaddon=inputstream.adaptive 
+#EXTHTTP:{"dt-custom-data":"eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://lic-cubmux.konslet.workers.dev/4rr0w/play.wv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt4.transvision.co.id:1000/live/master/2/4028c6856c3db2cc016cd6e647532391/manifest.mpd
 
 #EXTINF:-1  tvg-logo="https://static.wikia.nocookie.net/sketsa/images/4/44/Logotranstv.png/revision/latest?cb=20210722133912&path-prefix=id" group-title="Indonesia Channels (Indihome)",TRANSTV (Indihome)
 https://streaming.indihometv.com/atm/DASH/transtv/manifest.mpd
@@ -12,8 +20,22 @@ https://s.id/transtvHD_shareext-xs
 https://nyanv-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
 #EXTINF:-1  tvg-logo="https://static.wikia.nocookie.net/sketsa/images/4/44/Logotranstv.png/revision/latest?cb=20210722133912&path-prefix=id" group-title="Indonesia Channels",TRANSTV 1
 https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
-#EXTINF:-1  tvg-logo="https://static.wikia.nocookie.net/sketsa/images/4/44/Logotranstv.png/revision/latest?cb=20210722133912&path-prefix=id" group-title="Indonesia Channels",TRANSTV (Vision Plus)
+#EXTINF:-1  tvg-logo="https://static.wikia.nocookie.net/sketsa/images/4/44/Logotranstv.png/revision/latest?cb=20210722133912&path-prefix=id" group-title="Indonesia Channels (Vision Plus)",TRANSTV (Vision Plus)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=334950781f60a66f5e58324b70ac675d:73caca97be8999ce9cfeb3babad8669d
 https://melon-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
+
+#EXTINF:-1  tvg-logo="https://static.wikia.nocookie.net/indotv/images/4/46/Trans_7_2013.png/revision/latest/scale-to-width-down/1200?cb=20210317160255" group-title="Indonesia Channels (Indihome)",TRANS7 (Indihome)
+https://streaming.indihometv.com/atm/DASH/trans7/manifest.mpd
+#EXTINF:-1  tvg-logo="https://static.wikia.nocookie.net/indotv/images/4/46/Trans_7_2013.png/revision/latest/scale-to-width-down/1200?cb=20210317160255" group-title="Indonesia Channels HD",TRANS7 HD
+https://s.id/trans7HD_shareext-xs
+#EXTINF:-1  tvg-logo="https://static.wikia.nocookie.net/indotv/images/4/46/Trans_7_2013.png/revision/latest/scale-to-width-down/1200?cb=20210317160255" group-title="Indonesia Channels",TRANS7
+https://cdn01-telkomsel-01.akamaized.net/Content/DASH/Live/channel(bab870e9-ceaa-c720-864e-0cb46a9f5c03)/manifest.mpd
+#EXTINF:-1  tvg-logo="https://static.wikia.nocookie.net/indotv/images/4/46/Trans_7_2013.png/revision/latest/scale-to-width-down/1200?cb=20210317160255" group-title="Indonesia Channels",TRANS7 2
+https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
+#EXTINF:-1  tvg-logo="https://static.wikia.nocookie.net/indotv/images/4/46/Trans_7_2013.png/revision/latest/scale-to-width-down/1200?cb=20210317160255" group-title="Indonesia Channels (VisionPlus)",TRANS7 (Vision Plus)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=26bd60e03bbed7819eea0b27075a1897:d221ba6a6ab66e3083c001d2c4a3e5c5
+https://melon-live-cdn.mncnow.id/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd
