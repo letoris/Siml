@@ -1,9 +1,31 @@
-#EXTINF:-1 tvg-id="SCTV - [Channel 89].id" tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" tvg-logo="https://www.mncvision.id/userfiles/image/channel/sctv.png" group-title="Indonesia Channels",SCTV(indihome)
+#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/sctv.png" group-title="Indonesia Channels",SCTV (Indihome)
 https://streaming.indihometv.com/atm/DASH/sctv/manifest.mpd
-#EXTINF:-1 tvg-id="SCTV - [Channel 89].id" tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" tvg-logo="https://www.mncvision.id/userfiles/image/channel/sctv.png" group-title="Indonesia Channels",SCTV 
-https://cdnjkt4.transvision.co.id:1000/live/master/5/4028c6856c3db2cc016cd6e647532391/manifest.mpd
-#EXTINF:-1 tvg-id="SCTV - [Channel 89].id" tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" tvg-logo="https://www.mncvision.id/userfiles/image/channel/sctv.png" group-title="Indonesia Channels",SCTV 
-http://iptvkita.my.id:25461/Ahmadjunaidi/29062024/3518
-#EXTINF:-1 tvg-id="SCTV - [Channel 89].id" tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" tvg-logo="https://www.mncvision.id/userfiles/image/channel/sctv.png" group-title="Indonesia Channels",SCTV HD
+#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/sctv.png" group-title="Indonesia Channels",SCTV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
+#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/sctv.png" group-title="Indonesia Channels",SCTV 2 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
+
+#EXTINF:-1  tvg-logo="https://id.wikipedia.org/wiki/Trans_TV#/media/Berkas:Trans_TV_2013.svg" group-title="Indonesia Channels",TRANSTV (Indihome)
+https://streaming.indihometv.com/atm/DASH/transtv/manifest.mpd
+#EXTINF:-1  tvg-logo="https://id.wikipedia.org/wiki/Trans_TV#/media/Berkas:Trans_TV_2013.svg" group-title="Indonesia Channels",TRANSTV HD 1
+https://s.id/transtvHD_shareext-xs
+#EXTINF:-1  tvg-logo="https://id.wikipedia.org/wiki/Trans_TV#/media/Berkas:Trans_TV_2013.svg" group-title="Indonesia Channels",TRANSTV 2
+#https://nyanv-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
+https://cdn01-telkomsel-01.akamaized.net/Content/DASH/Live/channel(784e32da-bdac-7794-7122-0989aaf8959e)/manifest.mpd
+#EXTINF:-1  tvg-logo="https://id.wikipedia.org/wiki/Trans_TV#/media/Berkas:Trans_TV_2013.svg" group-title="Indonesia Channels",TRANSTV 3
+https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
+#EXTINF:-1  tvg-logo="https://id.wikipedia.org/wiki/Trans_TV#/media/Berkas:Trans_TV_2013.svg" group-title="Indonesia Channels",TRANSTV 4 (Vision Plus)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=334950781f60a66f5e58324b70ac675d:73caca97be8999ce9cfeb3babad8669d
+https://melon-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
+#EXTINF:-1  tvg-logo="https://id.wikipedia.org/wiki/Trans_TV#/media/Berkas:Trans_TV_2013.svg" group-title="Indonesia Channels",TRANSTV 5 (Vision Plus)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=334950781f60a66f5e58324b70ac675d:73caca97be8999ce9cfeb3babad8669d
+https://melon-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
+#EXTINF:-1  tvg-logo="https://id.wikipedia.org/wiki/Trans_TV#/media/Berkas:Trans_TV_2013.svg" group-title="Indonesia Channels",TRANSTV 6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
